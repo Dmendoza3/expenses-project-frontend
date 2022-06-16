@@ -54,4 +54,4 @@ Build the project
 
 ## Demo
 
-- [View demo]()
+- [View demo](https://expenses-project-frontend.herokuapp.com/)

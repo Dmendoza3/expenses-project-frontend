@@ -66,9 +66,9 @@ export default function ExpensesForm(){
           </Form.Group>
           <Form.Group className="mb-3" controlId="expensesForm.ControlInput1">
             <Form.Label>Value:</Form.Label>
-            <div class="input-group mb-3">
-              <div class="input-group-prepend">
-                <span class="input-group-text">$</span>
+            <div className="input-group mb-3">
+              <div className="input-group-prepend">
+                <span className="input-group-text">$</span>
               </div>
               <Form.Control type="number" placeholder="Price..." min="0" {...register1("value", { required: true })}/>
             </div>

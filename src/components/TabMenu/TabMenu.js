@@ -24,7 +24,7 @@ export default function TabMenu() {
               <button className={'nav-link ' + ((selectedTab === 3) ?'active':'')} href="#">Add new categories</button>
             </li>
           </ul>
-          <div classNam="tab-content">
+          <div >
             <div className="tab-pane">
               {selectedTab === 1 && <><ExpensesForm /></>}
               {selectedTab === 2 && <><Reports /></>}

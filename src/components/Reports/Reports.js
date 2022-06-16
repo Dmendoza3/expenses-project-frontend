@@ -10,7 +10,7 @@ import 'react-date-picker/dist/DatePicker.css';
 export default function Reports(){
   useEffect(() =>{ 
     get_expenses()
-  })
+  }, [])
 
   const get_expenses = () => {
     let date_value = dateValue.toISOString().substring(0, 10);
@@ -22,7 +22,7 @@ export default function Reports(){
       setExpenseSumList(data.data_sum);
       
       
-      let random_msg = Math.floor(Math.random() * 4)
+      let random_msg = Math.floor(Math.random() * 4);
 
       let special_msg = [
         "Be careful!",

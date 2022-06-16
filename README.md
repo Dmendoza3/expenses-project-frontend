@@ -20,7 +20,7 @@ This project is an expenses manager, it is a single page application that allows
 
 ## Installation
 
-1. Clone the repo and change "my-project" to your project name.
+1. Clone the repo
 
 ```sh
   git clone https://github.com/Dmendoza3 expenses-project-frontend.git ./expenses-project
